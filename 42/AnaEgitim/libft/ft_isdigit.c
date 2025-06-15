@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/26 18:55:43 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/05/26 18:58:49 by tyilmaz          ###   ########.fr       */
+/*   Created: 2025/06/15 12:11:55 by tyilmaz           #+#    #+#             */
+/*   Updated: 2025/06/15 12:11:55 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int	isdigit(int c)
+int	ft_isdigit(int c)
 {
 	return (c <= '9' && c >= '0');
 }

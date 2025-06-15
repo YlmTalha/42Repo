@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/11 15:39:39 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/06/11 15:43:08 by tyilmaz          ###   ########.fr       */
+/*   Created: 2025/06/15 12:14:02 by tyilmaz           #+#    #+#             */
+/*   Updated: 2025/06/15 12:14:02 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	strncmp(const char *s1, const char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned int	i;
+	size_t	i;
 
 	if (n == 0)
 		return (0);

@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/26 18:45:48 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/05/26 18:57:03 by tyilmaz          ###   ########.fr       */
+/*   Created: 2025/06/15 12:14:08 by tyilmaz           #+#    #+#             */
+/*   Updated: 2025/06/15 12:14:08 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-char	*strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 

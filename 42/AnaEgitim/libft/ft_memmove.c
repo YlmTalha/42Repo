@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/11 15:25:58 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/06/11 15:39:14 by tyilmaz          ###   ########.fr       */
+/*   Created: 2025/06/15 12:13:29 by tyilmaz           #+#    #+#             */
+/*   Updated: 2025/06/15 12:13:29 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	if (!dest && !src)
 		return (NULL);

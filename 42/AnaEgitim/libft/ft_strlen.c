@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/11 17:34:19 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/06/11 17:34:42 by tyilmaz          ###   ########.fr       */
+/*   Created: 2025/06/15 12:13:56 by tyilmaz           #+#    #+#             */
+/*   Updated: 2025/06/15 12:13:56 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_strlen(char *str)
 {
