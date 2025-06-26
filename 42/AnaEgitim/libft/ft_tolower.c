@@ -6,13 +6,13 @@
 /*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 13:07:20 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/06/15 13:07:20 by tyilmaz          ###   ########.fr       */
+/*   Updated: 2025/06/26 15:47:09 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-        return (c + 32);
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+		return (c + 32);
+	return (c);
 }

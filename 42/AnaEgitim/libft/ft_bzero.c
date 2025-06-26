@@ -6,7 +6,7 @@
 /*   By: tyilmaz <tyilmaz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 13:06:32 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/06/15 13:06:32 by tyilmaz          ###   ########.fr       */
+/*   Updated: 2025/06/26 15:42:48 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-    ft_memset(s, '\0', n);
+	ft_memset (s, '\0', n);
 }
