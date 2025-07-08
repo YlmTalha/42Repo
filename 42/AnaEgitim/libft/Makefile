@@ -6,7 +6,7 @@
 #    By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/07 16:42:04 by tyilmaz           #+#    #+#              #
-#    Updated: 2025/07/07 16:59:00 by tyilmaz          ###   ########.fr        #
+#    Updated: 2025/07/08 15:34:59 by tyilmaz          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,11 +38,16 @@ SRCS			= ft_atoi.c\
 					ft_toupper.c\
 					ft_split.c\
 					ft_itoa.c\
-					ft_strmapi.c
+					ft_strmapi.c\
+					ft_striteri.c\
+					ft_putchar_fd.c\
+					ft_putstr_fd.c\
+					ft_putendl_fd.c\
+					ft_putnbr_fd.c
 OBJS			= $(SRCS:.c=.o)
 CC				= cc
 RM				= rm -f
-CFLAGS			= -Wall -Wextra -Werror -I.
+CFLAGS			= -Wall -Wextra -Werror
 
 NAME			= libft.a
 

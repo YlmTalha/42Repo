@@ -6,12 +6,11 @@
 /*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/07 16:47:54 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/07/07 17:06:53 by tyilmaz          ###   ########.fr       */
+/*   Updated: 2025/07/08 15:54:51 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	ft_char_in_set(char c, char const *set)
 {

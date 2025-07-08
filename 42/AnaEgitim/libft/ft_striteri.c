@@ -1,21 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tyilmaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: tyilmaz <tyilmaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/08 15:49:58 by tyilmaz           #+#    #+#             */
-/*   Updated: 2025/07/08 16:03:33 by tyilmaz          ###   ########.fr       */
+/*   Created: 2022/10/11 16:02:18 by tyilmaz           #+#    #+#             */
+/*   Updated: 2022/10/11 16:02:19 by tyilmaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	main( )
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	int	i;
+	unsigned int	i;
+
+	if (!s || !f)
+		return ;
 	i = 0;
-	ft_putchar_fd('c', 2);
-	return (0);
-}test1 test2 test3
+	while (s[i] != '\0')
+	{
+		f(i, &s[i]);
+		i++;
+	}
+}
